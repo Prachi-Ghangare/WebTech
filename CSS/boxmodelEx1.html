@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model Example 2</title>
+    <style>
+        #main{
+            height: 500px;
+            width: 500px;
+            background-color: red;
+            border: 1px solid black;
+            border-radius: 50%;
+            padding: 70px 70px 70px 70px;
+            box-shadow: 70px 0px 10px yellow ;
+        }
+        div #div2{
+            border: 2px ;
+        }
+        p{
+            /* height: 200px; */
+            /* width: 200px; */
+            /* margin: 150px 100px 100px 150px;  */
+            /* border: 2px solid black; */
+            border-radius:100% ; 
+            padding: 50px 50px 50px 50px;
+            text-align: center;
+            position: absolute;
+            top: 250px;
+            left: 250px;
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div id="div2">
+            <p>Hello</p>
+        </div>
+    </div>
+</body>
+</html>

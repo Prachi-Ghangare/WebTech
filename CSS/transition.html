@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition Property</title>
+    <style>
+        *{
+            background-color:rgb(245, 207, 245);
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            /* background: ; */
+        }
+        #transition{
+            height: 300px;
+            width: 500px;
+            background-color: black;
+            margin: auto;
+            margin-top: 200px;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: larger;
+            font-weight: 200;
+            padding: 10px;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            /* transition-property: height,width,border; */
+            transition-property: all;
+            transition-duration: 3s;
+            transition-delay: 2s;
+            transition-timing-function: ease-in;
+        }
+        #transition:hover{
+            height: 200px;
+            width: 300px;
+            border: 10px solid white;
+        }
+    </style>
+</head>
+<body>
+    <div id="transition">Want to see magic just move cursor on me !! </div>
+</body>
+</html>

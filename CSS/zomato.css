@@ -1,0 +1,224 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    margin: 0;
+    width: 100%;
+    /* background-color: blue; */
+}
+#header{
+    position: relative;
+    height: 420px;
+}
+#banner{
+   width: 100%;
+   position: relative;
+}
+#banner img{
+    height:430px;
+    width: 100%;
+    transform: scale(1.1);
+}
+#header-body{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    color: white;
+}
+#nav{
+    /* font-weight: 400; */
+    margin-top: 20px;
+    height: 50px;
+}
+#nav-container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#nav-container ul{
+    list-style-type: none;
+    display: flex;
+}
+#nav-container ul li{
+    padding: 0px 5px;
+    margin-right: 25px;
+    font-size: 18px;
+}
+#nav-container ul li a{
+    color: white;
+    text-decoration: none;
+    /* font-family: ; */
+}
+#header-body-items{
+     position: relative;
+     top: 50px;
+}
+#header-body-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+}
+#header-body-container p{
+    font-size: 40px;
+    margin: 20px 0;
+}
+#header-body-container #search-container{
+    background-color: white;
+    width: 800px;
+    height: 55px;
+    border-radius: 10px;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+#location input{
+    border: none;
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+#location svg{
+    margin-left: 20px;
+}
+#line{
+    color: grey;
+    padding: 0 15px;
+    font-weight: bold;
+}
+#search-bar{
+    height: 32px;
+    width: 400px;
+    border: none;
+    font-size: 15px;
+    margin-left: 10px;
+}
+#feature-container{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    align-items: center; 
+    gap: 20px;   
+}
+#features{
+    height: 300px;
+    overflow: hidden;
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 10px;
+    display: inline-block;
+}
+#feature-img h2{
+    padding: 10px 20px;
+}
+#feature-img p{
+    color: grey;
+    font-size: medium;
+    padding: 10px 20px;
+}
+#features:hover{
+    transform:scale(1.05,1.05);
+}
+.collection{
+    height: 500px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    /* justify-content: center; */
+    color:black;
+    
+}
+.collection .collection1{
+    margin: 70px 0px 0px 210px ;
+    align-self: start;
+    padding: 0;
+    /* flex-basis: 10%; */
+}
+.collection .collection1 .all-collection{
+    display: flex;
+    flex-direction: row;
+    gap: 300px;
+    line-height: 2;
+}
+.collection .collection1 .all-collection a{
+    text-decoration: none;
+    color: orange;
+    margin-right: 8px;
+}
+.collection-item{
+    /* flex-basis: 90%; */
+    height: 500px;
+    width: 100%;
+    /* background-color: skyblue; */
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* align-items: center; */
+    justify-content:center;
+    gap: 12px;
+}
+.collection-item img{
+    height: 320px;
+    width: 265px;
+    background-size: cover;
+    border-radius: 7px;
+}
+.main-localities h1{
+    margin: 70px 0px 0px 210px;
+    text-align: start;
+}
+.localities{
+    height: 250px;
+    width: 80%;
+    /* background-color: yellow; */
+    margin:20px 0px 0px 150px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    gap: 20px;
+}
+.localities .localities-item{
+    height: 80px;
+    width: 350px;
+    /* background-color: green; */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10px 10px 10px;
+    line-height: 1.5;
+    font-size: 15px;
+    border: 0.01px solid rgb(234, 229, 229);
+    box-shadow: 0px 2px 2px rgb(246, 242, 242);
+}
+.localities .localities-item:hover{
+    box-shadow: 0px 5px 5px rgb(246, 242, 242);
+}
+.app{
+    height: 500px;
+    width: 100%;
+    background-color:rgb(255, 251, 247);
+    margin-top: 150px;
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 50px;
+}
+.app .app-content{
+    height: 300px;
+    width: 500px;
+}

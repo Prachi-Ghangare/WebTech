@@ -1,0 +1,107 @@
+# History =>
+
+    - Javascript was invented in year 1995 by Brenden Eich in Netscape.
+    - Firstly the technology name was given as 'Mocha' -> 'Livescript' -> 'Javascript' inspired by Java.
+    - It was developed to be used on 'Mosaic' browser.
+    - Recent version is ES7 [ECMA(European computer manufacturing Association) Script].
+
+# What is Javascript =>
+
+    - Javascript is a Scripting programming language.
+    - It is a high level , JIT complied and interpreted.
+    - It is multiparadigm programming language (i.e. Imperative as well as Declarative.)
+    - It has object oriented features.
+    - It is rich in Functions.
+    - It is dynamically typed PL.
+    - It is Asynchronus(doesn't block at the time of execution)
+
+    * Disadvantages over Java =>
+
+    - JS is not secured.
+    - It is not faster like Java.
+    - It doesn't provide support for multithreading.
+    - Also doesn't provide support for any I/O operations.
+
+# Tokens =>
+    It is the smallest part of JS PL.
+    
+    There are 6 types of Tokens
+    1. Keywords
+    2. Identifier
+    3. Operator
+    4. Seperator
+    5. Commments
+    6. Literals
+
+* Keywords -
+    Reserved words, aware by compiler, 51+ Keywords in JS, should be in lower case.
+
+* Identifier -
+    This are the name given by a programmer to the components such as class,variable, function.
+
+    Rules :
+        - cannot start with number
+        - character spaces are not allowed.
+        - only two special characters can be used i.e. "$" ,"_".
+        - cannot use keywords inplace of Identifier
+
+    Conventions - 
+        1. Class - 
+            Single word - 1st char must be in Uppercase
+            Multiple words - Every words 1st char must be in Uppercase
+            Pascalcase.
+
+        2. Variable & Method - 
+            single word - all char must be in lower case 
+            multiple word - 1st word lower case 2nd word onward every 1st char must be in upper case 
+            CamelCase.
+
+* Seperator - 
+    This are the character that are used to seperate block, statement, expression.
+    Ex - {} , ; . () [] 
+
+* Comments -
+    - statements not executed by compiler and interpreter. 
+    - This is used to explain logical part of code.
+    - used to make run readable by adding details
+
+    3 Types of comments - 
+        1. Single line comment : "//"
+        2. Multi line comment : "/*....*/"
+        3. Documentation comment : "/**.. *.. *.. ..**/" 
+
+* Literals- 
+    nothing but data 
+    - two types:
+        1. Primitive
+        2. Non-Primitive 
+
+    1. Primitive - 
+            number, boolean,string,null,undefined
+
+    2.Non-Primitve -
+            classes, arrays, object, etc.
+
+* Operator - 
+    - This are the special symbol used to perform some operation on operand.
+    - operand can be variable, expression, literals.
+
+    - Operators are classified based on -
+        1. Number of operand
+        2. operations they perform
+
+    1. Number of operand :
+        1.1 Unary
+        1.2 Binary
+        1.3 Ternary
+
+    2. Operations :
+        2.1 Arithmetic - [ + , - , * , / , % , ** ]
+        2.2 Relational - [ < , > , <= , >= , != , == , === , !== ]
+        2.3 Conditional -[ op1(condition)?op2:op3 ]  
+        2.4 Assignment - [ = ] 
+        2.5 Compound Assignment - [ += , -= , *= , /= , %= ]
+        2.6 Logical - [ && , || , ! ]
+        2.7 Increment & Decrement - [ ++ , -- ]
+        2.9 Bitwise - [ & , | , << , >> , < , > , ^ , ! ] 
+        2.8 Miscellaneous - [ new , typeof(), . ]

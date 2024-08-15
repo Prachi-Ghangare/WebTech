@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Class Selector</title>
+    <style>
+        #btn{
+            background-color: orangered;
+            border: none;
+            color: white;
+            font-size: 14px;
+            font-weight: 600;
+        }
+        #btn:hover{
+            background-color: white;
+            color: orangered;
+            border: 1px solid black;
+            width: 20%;
+            height: 60%;
+        }
+        a:link{
+            color: black;
+            /* border: 1px solid black; */
+            /* text-decoration: none; */
+        }
+        a:active{
+            color:blue;
+        }
+        a:visited{
+            color: red;
+        }
+        input{
+            outline: none;
+            background-color: bisque;
+            border: none;
+        }
+        input:required{
+            border: 1px solid;
+            width: 50%;
+            border: none;
+        }
+        div h1:first-child{
+            color: blue;
+        }
+        div h1:last-child{
+            color:blueviolet;
+        }
+        div h1:nth-child(3){
+            color:tomato;
+        }
+        div p:nth-child(even){
+            color:white;
+            background-color: black;
+        }
+        div p:nth-child(odd){
+            background-color:yellow;
+        }
+    </style>
+</head>
+<body>
+    <button id="btn">Click Me</button><br>
+    <a href="#">Home</a><br>
+    <input type="text">
+    <input type="email" required placeholder="enter email here">
+    <div>
+        <h1>Heading 1</h1>
+        <h1>Heading 2</h1>
+        <h1>Heading 3</h1>
+        <h1>Heading 4</h1>
+        <h1>Heading 5</h1>
+    </div>
+    <div>
+        <p>Paragraph 1</p>
+        <p>Paragraph 2</p>
+        <p>Paragraph 3</p>
+        <p>Paragraph 4</p>
+        <p>Paragraph 5</p>
+    </div>
+</body>
+</html>

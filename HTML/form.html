@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <!-- <form action="">
+        <fieldset>
+            <legend>Login Form</legend>
+            <label for="uname">Username: </label>
+            <input type="text" id="uname">
+            <br>
+            <label for="pwd">Password: </label>
+            <input type="password" id="pwd">
+            <br>
+            <label for="msg">Message: </label>
+            <textarea id="msg" cols="30" rows="5"></textarea>
+            <br><br>
+            <button style="margin-left: 150px;">Login</button>
+        </fieldset>
+    </form> -->
+    <form>
+       <fieldset>
+            <legend>Login Form</legend>
+            <label for="uname">Username: </label>
+            <input type="text" id="uname" placeholder="Enter usernaem here">
+            <br><br>
+            <label for="pwd">Password: </label>
+            <input type="password" id="pwd" placeholder="Enter password  here">
+            <br><br>
+            <label for="contc">Phone Number: </label>
+            <input type="tel" id="contc" placeholder="Enter phone number here" maxlength="10">
+            <br><br>
+            <label for="email">Email: </label>
+            <input type="email" id="email" placeholder="Enter email here">
+            <br><br>
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender">
+            <label for="female">Female</label>
+            <input type="radio" id="other" name="gender">
+            <label for="other">Other</label>
+            <br><br>
+            <label for="html">Subjects: </label>
+            <input type="checkbox" id="html">
+            <label>HTML</label>
+            <input type="checkbox" id="css">
+            <label for="css">CSS</label>
+            <input type="checkbox" id="js">
+            <label for="js">Javascript</label>
+            <br><br>
+            <label for="resume">Upload Resume: </label>
+            <input type="file" id="resume">
+            <br><br>
+            <label for="degree">Degree: </label>
+            <select id="degree">
+                <option>BE</option>                
+                <option selected>BTech</option>                
+                <option>BSc</option>                
+                <option>MTech</option>                
+                <option>MSc</option>                
+            </select>
+            <br><br>
+            <label for="date">DOB:</label>
+            <input type="date" id="date">
+            <br><br>
+            <label for="birthdaytime">DOB(date and time):</label>
+            <input type="datetime-local" id="birthdaytime" name="birthdaytime">
+            <br><br>
+            <label for="bdaymonth">DOB(month and year):</label>
+            <input type="month" id="bdaymonth" name="bdaymonth">
+            <br><br>
+            <input type="hidden" id="custId" name="custId" value="3487">
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" name="quantity" min="0" max="100" step="10" value="30">
+            <br><br>
+            <label for="vol">Volume (between 0 and 50):</label>
+            <input type="range" id="vol" name="vol" min="0" max="50">
+            <br><br>
+            <label for="gsearch">Search Google:</label>
+            <input type="search" id="gsearch" name="gsearch">
+            <br><br>
+            <label for="appt">Select a time:</label>
+            <input type="time" id="appt" name="appt">
+            <br><br>
+            <label for="homepage">Add your homepage:</label>
+            <input type="url" id="homepage" name="homepage">
+            <br><br>
+            <label for="week">Select a week:</label>
+            <input type="week" id="week" name="week">
+            <br><br>
+            <input type="image" src="img_submit.gif" alt="Submit" width="48" height="48">
+            <br>
+            <label for="favcolor">Select your favorite color:</label>
+            <input type="color" id="favcolor" name="favcolor">
+            <br><br>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+       </fieldset> 
+    </form>
+</body>
+</html>

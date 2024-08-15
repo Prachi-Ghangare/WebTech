@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            height: 400px;
+            border: 1px solid black;
+            display: grid;
+            /* number of columns we want */
+            grid-template-columns: auto auto auto auto;
+            /* distance between the rows */
+            grid-template-rows: 100px; 
+            gap: 20px;
+            /* align-items: center;  will not affect to 1st row */
+            /* align-content:center;   apply to whole content */
+            /* justify-content:space-around; */
+        }
+        .container div{
+            height: 70px;
+            width: 100px;
+            border: 1px solid;
+        }
+        .container div:nth-child(even){
+            background-color: red;
+        }
+        .container div:nth-child(odd){
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+    </div>
+</body>
+</html>

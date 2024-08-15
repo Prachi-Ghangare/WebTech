@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    height: 80px;
+}
+header nav{
+    height: inherit;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 20px;
+}
+header nav section{
+    height: inherit;
+    width: 98%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#logo{
+    flex-basis: 40%;
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}
+header nav section img{
+    height: 50px;
+    width: 50px;
+}
+#menu{
+    flex-basis: 60%;
+}
+#menu ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+    gap: 40px;
+}
+#menu ul a{
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+}
+#menu ul a:hover{
+    font-size: 22px;
+    text-decoration: underline;
+    font-weight: 600;
+}
+#menu ul li svg{
+   /* margin-right: 10px; */
+}

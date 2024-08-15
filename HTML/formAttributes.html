@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Attributes</title>
+</head>
+
+<body>
+    <!-- type,value,id,placeholder,name,readonly,disabled,size,min and max,
+        maxlength,required,autofocus,multiple,step -->
+    <form action="">
+        <label for="uname">Username: </label>
+        <input type="text" id="uname" value="Admin" readonly autofocus>
+        <br><br>
+        <label for="pwd">Password: </label>
+        <input type="password" name="password" id="pwd" placeholder="enter password here">
+        <br><br>
+        <label>Email: </label>
+        <input type="email" placeholder="enter email here" required>
+        <br><br>
+        <label>Phone No. :</label>
+        <input type="tel" placeholder="+91" size="1" disabled>
+        <input type="tel" maxlength="10">
+        <br><br>
+        <label>DOB: </label>
+        <input type="date" max="2024-06-20" min="2000-06-20">
+        <br><br>
+        <label>Upload Documents: </label>
+        <input type="file" multiple>
+        <br><br>
+        <input type="number" step="10">
+        <br><br>
+        <!-- <input type="submit" name="" id=""> -->
+        <input type="button" value="Submit">
+        <input type="reset" name="" id="">
+    </form>
+</body>
+
+</html>

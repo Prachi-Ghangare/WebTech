@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application</title>
+    <style>
+        .form-container{
+            height: 550px;
+            width: 500px;
+            margin: auto;
+            display: flex;
+            /* rgb(230, 95, 140) */
+            background:linear-gradient(rgb(251, 168, 207)
+            ,rgb(250, 112, 172),rgb(255, 2, 154));
+        }
+        .form-container #main-field{
+            /* background-color:rgb(230, 95, 140); */
+            height: 500px;
+            width: 430px;
+            border: 1px;
+            margin-left: 20px; 
+        }
+        #name-field{
+            display: flex;
+            /* background-color:rgb(242, 53, 192); */
+            /* justify-content: space-evenly; */
+            gap :60px;
+            border: 1px;
+        }
+        .name-holder{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .credentials{
+            margin-top: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            border:1px;
+            /* background-color:rgb(255, 218, 230); */
+        }
+        .credentials .cred-holder{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .credentials .cred-holder input{
+            width: 91%;
+        }
+        .identity #gender{
+            display: flex;
+            /* justify-content: center; */
+            gap: 10px;
+            margin:10px 0px 0px 10px;
+            border: 1px;
+            /* background-color:rgb(255, 218, 230) ; */
+            padding: 5px;
+        }
+        #gender-input{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="form-container">
+        <form>
+            <fieldset id="main-field">
+                <legend><h2>Course/Student Details</h2></legend>
+                <div class="name-container">
+                    <fieldset id=name-field>
+                        <div class="name-holder">
+                            <label for="fname">First Name</label>
+                            <input type="text" id="fname" required>
+                        </div>
+                        <div class="name-holder">
+                            <label for="lname">Last Name</label>
+                            <input type="text" id="lname" required>
+                        </div>
+                    </fieldset>
+                </div>
+                <!-- second part -->
+                <div class="credentials">
+                    <div class="cred-holder">
+                        <input type="text" id="uname" placeholder="Enter username" required>
+                    </div>
+                    <div class="cred-holder">
+                        <input type="email" placeholder="Enter email" required>
+                    </div>
+                    <div class="cred-holder">
+                        <input type="tel" placeholder="Enter phone number" maxlength="10" required>
+                    </div>
+                    <div class="cred-holder">
+                        <input type="password" placeholder="Enter password" required>
+                    </div>
+                </div>
+                <div class="identity">
+                    <div id="gender">
+                        <div><label for="genDer">Gender :</label></div>
+                        <div id="gender-input">
+                            <input type="radio" id="male" name="gender">
+                            <label for="male">Male</label>
+                            <input type="radio" id="female" name="gender">
+                            <label for="female">Female</label>
+                            <input type="radio" id="other" name="gender">
+                            <label for="other">Other</label>
+                        </div>
+                    </div>
+                    <div id="dob"></div>
+                </div>
+                <div></div>
+            </fieldset>
+        </form>
+    </section>
+</body>
+</html>
